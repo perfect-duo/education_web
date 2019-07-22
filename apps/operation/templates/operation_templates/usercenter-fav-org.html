@@ -1,0 +1,96 @@
+{% extends 'usercenter_base.html' %}
+{% block title %}
+我的收藏
+{% endblock %}
+{% block address %}
+ <section>
+        <div class="wp">
+            <ul  class="crumbs">
+                <li><a href="{% url 'index' %}">首页</a>></li>
+                <li><a href="{% url 'userdate:self_date' %}">个人中心</a>></li>
+                <li>我的收藏</li>
+            </ul>
+        </div>
+    </section>
+{% endblock %}
+
+{% block content %}
+    <div class="right" >
+            <div class="personal_des Releasecont">
+                <div class="head">
+                    <h1>我的收藏</h1>
+                </div>
+
+            </div>
+            <div class="personal_des permessage">
+                <div class="head">
+                    <ul class="tab_header messagehead">
+                      <li class="{% ifequal '2' fav_type_id%}active{% endifequal %}"><a href="{% url 'userdate:user_fav' '2'%}">课程机构</a> </li>
+                        <li class="{% ifequal '3' fav_type_id%}active{% endifequal %}"><a href="{% url 'userdate:user_fav' '3'%}">授课教师 </a></li>
+                        <li class="{% ifequal '1' fav_type_id%}active{% endifequal %}"><a href="{% url 'userdate:user_fav' '1'%}">公开课程</a></li>
+                    </ul>
+                </div>
+                <div class="messagelist">
+                    {% for org in org_list %}
+                    <div class="messages butler_list company company-fav-box">
+                        <dl class="des fr">
+                            <dt>
+                                <a href="{% url 'organization:org_detail' org.id%}">
+                                    <img width="160" height="90" src="{{ MEDIA_URL }}{{ org.image }}"/>
+                                </a>
+                            </dt>
+                            <dd>
+                                <h1><a href="{% url 'organization:org_detail' org.id%}">{{ org.name }}</a></h1>
+                                <div class="pic fl" style="width:auto;">
+
+                                    <img src="/static/images/authentication.png"/>
+
+
+                                    <img src="/static/images/gold.png"/>
+
+                                </div>
+                                <span class="c8 clear">{{ org.city }}</span>
+                                <div class="delete jsDeleteFav" data-favid="{{ org.id }}"></div>
+                            </dd>
+                        </dl>
+                    </div>
+                    {% endfor %}
+                    
+                </div>
+            </div>
+        </div>
+{% endblock %}
+{% block other_alter%}
+<script type="text/javascript">
+
+    $('.jsDeleteFav').on('click', function(){
+        var _this = $(this),
+            fav_id = _this.attr('data-favid');
+
+        $.ajax({
+                cache: false,
+                type: "POST",
+                url: "{% url 'userdate:delete_fav' %}",
+                data: {
+                    fav_type: 2,
+                    fav_id: fav_id,
+
+                },
+                async: true,
+                beforeSend:function(xhr, settings){
+            xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+        },
+                success: function(data) {
+                    Dml.fun.winReload();
+                }
+            });
+    });
+</script>
+{% endblock %}
+
+
+
+
+    
+  
+

@@ -1,0 +1,1520 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-08 14:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: .\xadmin\adminx.py:20
+msgid "Admin Object"
+msgstr ""
+
+#: .\xadmin\apps.py:11
+msgid "Administration"
+msgstr ""
+
+#: .\xadmin\filters.py:169 .\xadmin\filters.py:207 .\xadmin\filters.py:427
+#: .\xadmin\filters.py:514 .\xadmin\filters.py:553
+msgid "All"
+msgstr ""
+
+#: .\xadmin\filters.py:170 .\xadmin\plugins\export.py:167
+msgid "Yes"
+msgstr ""
+
+#: .\xadmin\filters.py:171 .\xadmin\plugins\export.py:167
+msgid "No"
+msgstr ""
+
+#: .\xadmin\filters.py:191
+msgid "Unknown"
+msgstr ""
+
+#: .\xadmin\filters.py:287
+msgid "Any date"
+msgstr ""
+
+#: .\xadmin\filters.py:288
+msgid "Has date"
+msgstr ""
+
+#: .\xadmin\filters.py:291
+msgid "Has no date"
+msgstr ""
+
+#: .\xadmin\filters.py:294 .\xadmin\widgets.py:35 .\xadmin\widgets.py:80
+msgid "Today"
+msgstr ""
+
+#: .\xadmin\filters.py:298
+msgid "Past 7 days"
+msgstr ""
+
+#: .\xadmin\filters.py:302
+msgid "This month"
+msgstr ""
+
+#: .\xadmin\filters.py:306
+msgid "This year"
+msgstr ""
+
+#: .\xadmin\forms.py:10
+msgid ""
+"Please enter the correct username and password for a staff account. Note "
+"that both fields are case-sensitive."
+msgstr ""
+
+#: .\xadmin\forms.py:21
+msgid "Please log in again, because your session has expired."
+msgstr ""
+
+#: .\xadmin\forms.py:42
+#, python-format
+msgid "Your e-mail address is not your username. Try '%s' instead."
+msgstr ""
+
+#: .\xadmin\models.py:47
+msgid "Title"
+msgstr ""
+
+#: .\xadmin\models.py:48 .\xadmin\models.py:89 .\xadmin\models.py:109
+#: .\xadmin\models.py:153
+msgid "user"
+msgstr ""
+
+#: .\xadmin\models.py:49
+msgid "Url Name"
+msgstr ""
+
+#: .\xadmin\models.py:51
+msgid "Query String"
+msgstr ""
+
+#: .\xadmin\models.py:52
+msgid "Is Shared"
+msgstr ""
+
+#: .\xadmin\models.py:65 .\xadmin\plugins\bookmark.py:59
+#: .\xadmin\plugins\bookmark.py:194
+msgid "Bookmark"
+msgstr ""
+
+#: .\xadmin\models.py:66
+msgid "Bookmarks"
+msgstr ""
+
+#: .\xadmin\models.py:90
+msgid "Settings Key"
+msgstr ""
+
+#: .\xadmin\models.py:91
+msgid "Settings Content"
+msgstr ""
+
+#: .\xadmin\models.py:103
+msgid "User Setting"
+msgstr ""
+
+#: .\xadmin\models.py:104
+msgid "User Settings"
+msgstr ""
+
+#: .\xadmin\models.py:110
+msgid "Page"
+msgstr ""
+
+#: .\xadmin\models.py:111 .\xadmin\views\dashboard.py:82
+#: .\xadmin\views\dashboard.py:92
+msgid "Widget Type"
+msgstr ""
+
+#: .\xadmin\models.py:112 .\xadmin\views\dashboard.py:83
+msgid "Widget Params"
+msgstr ""
+
+#: .\xadmin\models.py:139
+msgid "User Widget"
+msgstr ""
+
+#: .\xadmin\models.py:140
+msgid "User Widgets"
+msgstr ""
+
+#: .\xadmin\models.py:146
+msgid "action time"
+msgstr ""
+
+#: .\xadmin\models.py:155
+msgid "action ip"
+msgstr ""
+
+#: .\xadmin\models.py:159
+msgid "content type"
+msgstr ""
+
+#: .\xadmin\models.py:162
+msgid "object id"
+msgstr ""
+
+#: .\xadmin\models.py:163
+msgid "object repr"
+msgstr ""
+
+#: .\xadmin\models.py:164
+msgid "action flag"
+msgstr ""
+
+#: .\xadmin\models.py:165
+msgid "change message"
+msgstr ""
+
+#: .\xadmin\models.py:168
+msgid "log entry"
+msgstr ""
+
+#: .\xadmin\models.py:169
+msgid "log entries"
+msgstr ""
+
+#: .\xadmin\models.py:177
+#, python-format
+msgid "Added \"%(object)s\"."
+msgstr ""
+
+#: .\xadmin\models.py:179
+#, python-format
+msgid "Changed \"%(object)s\" - %(changes)s"
+msgstr ""
+
+#: .\xadmin\models.py:184
+#, python-format
+msgid "Deleted \"%(object)s.\""
+msgstr ""
+
+#: .\xadmin\plugins\actions.py:58
+#, python-format
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr ""
+
+#: .\xadmin\plugins\actions.py:73
+#, python-format
+msgid "Batch delete %(count)d %(items)s."
+msgstr ""
+
+#: .\xadmin\plugins\actions.py:79
+#, python-format
+msgid "Successfully deleted %(count)d %(items)s."
+msgstr ""
+
+#: .\xadmin\plugins\actions.py:111 .\xadmin\views\delete.py:71
+#, python-format
+msgid "Cannot delete %(name)s"
+msgstr ""
+
+#: .\xadmin\plugins\actions.py:113 .\xadmin\views\delete.py:74
+msgid "Are you sure?"
+msgstr ""
+
+#: .\xadmin\plugins\actions.py:159
+#, python-format
+msgid "%(total_count)s selected"
+msgid_plural "All %(total_count)s selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\xadmin\plugins\actions.py:163
+#, python-format
+msgid "0 of %(cnt)s selected"
+msgstr ""
+
+#: .\xadmin\plugins\actions.py:180 .\xadmin\plugins\actions.py:190
+msgid ""
+"Items must be selected in order to perform actions on them. No items have "
+"been changed."
+msgstr ""
+
+#: .\xadmin\plugins\aggregation.py:15
+msgid "Min"
+msgstr ""
+
+#: .\xadmin\plugins\aggregation.py:15
+msgid "Max"
+msgstr ""
+
+#: .\xadmin\plugins\aggregation.py:15
+msgid "Avg"
+msgstr ""
+
+#: .\xadmin\plugins\aggregation.py:15
+msgid "Sum"
+msgstr ""
+
+#: .\xadmin\plugins\aggregation.py:15
+msgid "Count"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:25
+#, python-format
+msgid "Can add %s"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:26
+#, python-format
+msgid "Can change %s"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:27
+#, python-format
+msgid "Can edit %s"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:28
+#, python-format
+msgid "Can delete %s"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:29
+#, python-format
+msgid "Can view %s"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:91
+msgid "Personal info"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:95
+msgid "Permissions"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:98
+msgid "Important dates"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:103
+msgid "Status"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:115
+msgid "Permission Name"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:171
+#, fuzzy
+msgid "Change Password"
+msgstr "Changed Password"
+
+#: .\xadmin\plugins\auth.py:202
+#, python-format
+msgid "Change password: %s"
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:227 .\xadmin\plugins\auth.py:259
+msgid "Password changed successfully."
+msgstr ""
+
+#: .\xadmin\plugins\auth.py:246
+#: .\xadmin\templates\xadmin\auth\user\change_password.html:11
+#: .\xadmin\templates\xadmin\auth\user\change_password.html:22
+#: .\xadmin\templates\xadmin\auth\user\change_password.html:55
+msgid "Change password"
+msgstr ""
+
+#: .\xadmin\plugins\batch.py:44
+msgid "Change this field"
+msgstr ""
+
+#: .\xadmin\plugins\batch.py:65
+#, python-format
+msgid "Batch Change selected %(verbose_name_plural)s"
+msgstr ""
+
+#: .\xadmin\plugins\batch.py:89
+#, python-format
+msgid "Successfully change %(count)d %(items)s."
+msgstr ""
+
+#: .\xadmin\plugins\batch.py:138
+#, python-format
+msgid "Batch change %s"
+msgstr ""
+
+#: .\xadmin\plugins\bookmark.py:187
+msgid "bookmark"
+msgstr ""
+
+#: .\xadmin\plugins\bookmark.py:190
+msgid "Bookmark Widget, can show user's bookmark list data in widget."
+msgstr ""
+
+#: .\xadmin\plugins\chart.py:24
+msgid "Show models simple chart."
+msgstr ""
+
+#: .\xadmin\plugins\chart.py:50
+#, python-format
+msgid "%s Charts"
+msgstr ""
+
+#: .\xadmin\plugins\comments.py:33
+msgid "Metadata"
+msgstr ""
+
+#: .\xadmin\plugins\comments.py:60
+msgid "flagged"
+msgid_plural "flagged"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\xadmin\plugins\comments.py:61
+msgid "Flag selected comments"
+msgstr ""
+
+#: .\xadmin\plugins\comments.py:66
+msgid "approved"
+msgid_plural "approved"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\xadmin\plugins\comments.py:67
+msgid "Approve selected comments"
+msgstr ""
+
+#: .\xadmin\plugins\comments.py:72
+msgid "removed"
+msgid_plural "removed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\xadmin\plugins\comments.py:73
+msgid "Remove selected comments"
+msgstr ""
+
+#: .\xadmin\plugins\comments.py:86
+#, python-format
+msgid "1 comment was successfully %(action)s."
+msgid_plural "%(count)s comments were successfully %(action)s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\xadmin\plugins\details.py:52 .\xadmin\views\list.py:577
+#, python-format
+msgid "Details of %s"
+msgstr ""
+
+#: .\xadmin\plugins\editable.py:47
+#, python-format
+msgid "Enter %s"
+msgstr ""
+
+#: .\xadmin\plugins\editable.py:79 .\xadmin\views\dashboard.py:650
+#: .\xadmin\views\delete.py:28 .\xadmin\views\detail.py:145
+#: .\xadmin\views\edit.py:465
+#, python-format
+msgid "%(name)s object with primary key %(key)r does not exist."
+msgstr ""
+
+#: .\xadmin\plugins\export.py:100 .\xadmin\plugins\export.py:137
+msgid "Sheet"
+msgstr ""
+
+#: .\xadmin\plugins\filters.py:138 .\xadmin\plugins\quickfilter.py:146
+#, python-format
+msgid "<b>Filtering error:</b> %s"
+msgstr ""
+
+#: .\xadmin\plugins\images.py:29
+msgid "Previous"
+msgstr ""
+
+#: .\xadmin\plugins\images.py:29
+msgid "Next"
+msgstr ""
+
+#: .\xadmin\plugins\images.py:29
+msgid "Slideshow"
+msgstr ""
+
+#: .\xadmin\plugins\images.py:29
+msgid "Download"
+msgstr ""
+
+#: .\xadmin\plugins\images.py:50
+msgid "Change:"
+msgstr ""
+
+#: .\xadmin\plugins\importexport.py:176 .\xadmin\plugins\importexport.py:247
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.importexport.import.html:4
+#: .\xadmin\templates\xadmin\import_export\import.html:6
+#: .\xadmin\templates\xadmin\import_export\import.html:13
+msgid "Import"
+msgstr ""
+
+#: .\xadmin\plugins\importexport.py:229
+#, python-format
+msgid "<h1>Imported file has a wrong encoding: %s</h1>"
+msgstr ""
+
+#: .\xadmin\plugins\importexport.py:231
+#, python-format
+msgid "<h1>%s encountered while trying to read file: %s</h1>"
+msgstr ""
+
+#: .\xadmin\plugins\importexport.py:304
+msgid "Import finished"
+msgstr ""
+
+#: .\xadmin\plugins\importexport.py:304
+#: .\xadmin\templates\xadmin\blocks\comm.top.topnav.html:23
+msgid "Add"
+msgstr ""
+
+#: .\xadmin\plugins\importexport.py:305
+#: .\xadmin\templates\xadmin\import_export\import.html:109
+msgid "Update"
+msgstr ""
+
+#: .\xadmin\plugins\importexport.py:439
+msgid "You must select an export format."
+msgstr ""
+
+#: .\xadmin\plugins\layout.py:16
+msgid "Table"
+msgstr ""
+
+#: .\xadmin\plugins\layout.py:22
+msgid "Thumbnails"
+msgstr ""
+
+#: .\xadmin\plugins\passwords.py:62
+msgid "Forgotten your password or username?"
+msgstr ""
+
+#: .\xadmin\plugins\quickform.py:80
+#, python-format
+msgid "Create New %s"
+msgstr ""
+
+#: .\xadmin\plugins\relate.py:104
+msgid "Related Objects"
+msgstr ""
+
+#: .\xadmin\plugins\relfield.py:29 .\xadmin\plugins\topnav.py:38
+#, python-format
+msgid "Search %s"
+msgstr ""
+
+#: .\xadmin\plugins\relfield.py:68
+#, python-format
+msgid "Select %s"
+msgstr ""
+
+#: .\xadmin\plugins\themes.py:59
+msgid "Default"
+msgstr ""
+
+#: .\xadmin\plugins\themes.py:59
+msgid "Default bootstrap theme"
+msgstr ""
+
+#: .\xadmin\plugins\themes.py:60
+msgid "Bootstrap2"
+msgstr ""
+
+#: .\xadmin\plugins\themes.py:60
+msgid "Bootstrap 2.x theme"
+msgstr ""
+
+#: .\xadmin\plugins\topnav.py:62 .\xadmin\views\dashboard.py:465
+#: .\xadmin\views\edit.py:398 .\xadmin\views\edit.py:407
+#, python-format
+msgid "Add %s"
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:109
+msgid "Initial version."
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:111
+msgid "Change version."
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:113
+msgid "Revert version."
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:115
+msgid "Rercover version."
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:117
+#, python-format
+msgid "Deleted %(verbose_name)s."
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:130
+#: .\xadmin\templates\xadmin\views\recover_form.html:26
+msgid "Recover"
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:146
+#: .\xadmin\templates\xadmin\views\model_history.html:11
+#: .\xadmin\templates\xadmin\views\revision_diff.html:11
+#: .\xadmin\templates\xadmin\views\revision_form.html:15
+msgid "History"
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:199
+#: .\xadmin\templates\xadmin\views\recover_form.html:14
+#: .\xadmin\templates\xadmin\views\recover_list.html:10
+#, python-format
+msgid "Recover deleted %(name)s"
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:243
+#, python-format
+msgid "Change history: %s"
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:293
+msgid "Must select two versions."
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:301
+msgid "Please select two different versions."
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:388 .\xadmin\plugins\xversion.py:505
+#, python-format
+msgid "Current: %s"
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:429
+#, python-format
+msgid "Revert %s"
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:445
+#, python-format
+msgid ""
+"The %(model)s \"%(name)s\" was reverted successfully. You may edit it again "
+"below."
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:466
+#, python-format
+msgid "Recover %s"
+msgstr ""
+
+#: .\xadmin\plugins\xversion.py:482
+#, python-format
+msgid ""
+"The %(model)s \"%(name)s\" was recovered successfully. You may edit it again "
+"below."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\404.html:4 .\xadmin\templates\xadmin\404.html:8
+msgid "Page not found"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\404.html:10
+msgid "We're sorry, but the requested page could not be found."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\500.html:7
+#: .\xadmin\templates\xadmin\auth\user\change_password.html:10
+#: .\xadmin\templates\xadmin\auth\user\change_password.html:15
+#: .\xadmin\templates\xadmin\base_site.html:53
+#: .\xadmin\templates\xadmin\import_export\export_action.html:13
+#: .\xadmin\templates\xadmin\import_export\import.html:11
+#: .\xadmin\templates\xadmin\includes\sitemenu_default.html:7
+#: .\xadmin\templates\xadmin\views\app_index.html:9
+#: .\xadmin\templates\xadmin\views\batch_change_form.html:9
+#: .\xadmin\templates\xadmin\views\invalid_setup.html:7
+#: .\xadmin\templates\xadmin\views\model_dashboard.html:7
+#: .\xadmin\templates\xadmin\views\model_delete_selected_confirm.html:8
+#: .\xadmin\templates\xadmin\views\model_history.html:8
+#: .\xadmin\templates\xadmin\views\recover_form.html:8
+#: .\xadmin\templates\xadmin\views\recover_list.html:8
+#: .\xadmin\templates\xadmin\views\revision_diff.html:8
+#: .\xadmin\templates\xadmin\views\revision_form.html:8
+#: .\xadmin\views\base.py:481
+msgid "Home"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\500.html:8
+msgid "Server error"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\500.html:12
+msgid "Server error (500)"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\500.html:15
+msgid "Server Error <em>(500)</em>"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\500.html:16
+msgid ""
+"There's been an error. It's been reported to the site administrators via e-"
+"mail and should be fixed shortly. Thanks for your patience."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\complete.html:11
+#: .\xadmin\templates\xadmin\auth\password_reset\done.html:11
+msgid "Password reset successful"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\complete.html:14
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\complete.html:15
+msgid "Log in"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\confirm.html:12
+msgid "Enter new password"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\confirm.html:17
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\confirm.html:19
+msgid "Change my password"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\confirm.html:24
+msgid "Password reset unsuccessful"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\confirm.html:27
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\done.html:14
+msgid ""
+"We've e-mailed you instructions for setting your password to the e-mail "
+"address you submitted. You should be receiving it shortly."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\email.html:2
+#, python-format
+msgid ""
+"You're receiving this e-mail because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\email.html:8
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\email.html:10
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\form.html:13
+msgid "Password reset"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\form.html:17
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll e-mail "
+"instructions for setting a new one."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\form.html:25
+msgid "E-mail address:"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\password_reset\form.html:33
+msgid "Reset my password"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\user\add_form.html:6
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more user "
+"options."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\user\add_form.html:8
+msgid "Enter a username and password."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\user\change_password.html:31
+#: .\xadmin\templates\xadmin\views\batch_change_form.html:24
+#: .\xadmin\templates\xadmin\views\form.html:18
+#: .\xadmin\templates\xadmin\views\model_form.html:20
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\xadmin\templates\xadmin\auth\user\change_password.html:38
+msgid "Enter your new password."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\auth\user\change_password.html:40
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\base_site.html:18
+msgid "Welcome,"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\base_site.html:24
+msgid "Log out"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\base_site.html:36
+msgid "You don't have permission to edit anything."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\comm.top.theme.html:4
+msgid "Themes"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\comm.top.topnav.html:9
+#: .\xadmin\templates\xadmin\blocks\model_list.nav_form.search_form.html:8
+#: .\xadmin\templates\xadmin\filters\char.html:7
+#: .\xadmin\templates\xadmin\filters\fk_search.html:7
+#: .\xadmin\templates\xadmin\filters\fk_search.html:16
+#: .\xadmin\templates\xadmin\filters\number.html:7
+msgid "Search"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_form.submit_line.wizard.html:9
+#: .\xadmin\templates\xadmin\blocks\model_form.submit_line.wizard.html:26
+msgid "Prev step"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_form.submit_line.wizard.html:13
+#: .\xadmin\templates\xadmin\blocks\model_form.submit_line.wizard.html:29
+msgid "Next step"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_form.submit_line.wizard.html:15
+#: .\xadmin\templates\xadmin\blocks\model_form.submit_line.wizard.html:31
+#: .\xadmin\templates\xadmin\includes\submit_line.html:10
+#: .\xadmin\templates\xadmin\includes\submit_line.html:13
+#: .\xadmin\templates\xadmin\views\form.html:30
+#: .\xadmin\templates\xadmin\views\form.html:31
+msgid "Save"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.nav_menu.bookmarks.html:7
+msgid "Clean Bookmarks"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.nav_menu.bookmarks.html:18
+msgid "No Bookmarks"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.nav_menu.bookmarks.html:22
+msgid "New Bookmark"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.nav_menu.bookmarks.html:26
+msgid "Save current page as Bookmark"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.nav_menu.bookmarks.html:32
+msgid "Enter bookmark title"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.nav_menu.bookmarks.html:33
+msgid "Waiting"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.nav_menu.bookmarks.html:33
+msgid "Save Bookmark"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.nav_menu.filters.html:4
+msgid "Filters"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.nav_menu.filters.html:8
+msgid "Clean Filters"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.results_bottom.actions.html:19
+msgid "Click here to select the objects across all pages"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.results_bottom.actions.html:19
+#, python-format
+msgid "Select all %(total_count)s %(model_name)s"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.results_bottom.actions.html:20
+msgid "Clear selection"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.results_top.charts.html:4
+msgid "Charts"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.exports.html:4
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.exports.html:8
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.exports.html:19
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.exports.html:47
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.importexport.export.html:4
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.importexport.export.html:12
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.importexport.export.html:41
+#: .\xadmin\templates\xadmin\import_export\export_action.html:7
+#: .\xadmin\templates\xadmin\import_export\export_action.html:15
+msgid "Export"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.exports.html:26
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.exports.html:29
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.exports.html:32
+msgid "Export with table header."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.exports.html:35
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.exports.html:38
+msgid "Export with format."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.exports.html:42
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.importexport.export.html:35
+msgid "Export all data."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.exports.html:46
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.importexport.export.html:39
+#: .\xadmin\templates\xadmin\widgets\base.html:41
+msgid "Close"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.importexport.export.html:33
+msgid "Export current page data."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.importexport.export.html:34
+msgid "Export selected data."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.importexport.export.html:36
+msgid "Export header only."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.layouts.html:4
+msgid "Layout"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.refresh.html:8
+msgid "Clean Refresh"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.refresh.html:14
+#, python-format
+msgid "Every %(t)s seconds"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\blocks\model_list.top_toolbar.saveorder.html:4
+msgid "Save Order"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\edit_inline\blank.html:5
+#: .\xadmin\views\detail.py:25 .\xadmin\views\edit.py:105
+#: .\xadmin\views\list.py:31
+msgid "Null"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\char.html:13
+msgid "Enter"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:10
+#: .\xadmin\templates\xadmin\filters\date.html:13
+msgid "Choice Date"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:18
+msgid "YY"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:19
+msgid "year"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:22
+msgid "MM"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:23
+msgid "month"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:26
+msgid "DD"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:27
+msgid "day"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:29
+#: .\xadmin\templates\xadmin\filters\date.html:46
+#: .\xadmin\templates\xadmin\filters\date.html:54
+#: .\xadmin\templates\xadmin\filters\fk_search.html:24
+#: .\xadmin\templates\xadmin\filters\number.html:37
+msgid "Apply"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:34
+msgid "Date Range"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:41
+msgid "Select Date"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:42
+msgid "From"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\date.html:44
+msgid "To"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\fk_search.html:14
+msgid "Select"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\fk_search.html:26
+#: .\xadmin\templates\xadmin\filters\number.html:39
+msgid "Clean"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\number.html:17
+#: .\xadmin\templates\xadmin\filters\number.html:25
+#: .\xadmin\templates\xadmin\filters\number.html:33
+msgid "Enter Number"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\filters\rel.html:3
+#, python-format
+msgid " By %(filter_title)s "
+msgstr ""
+
+#: .\xadmin\templates\xadmin\forms\transfer.html:4
+msgid "Available"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\forms\transfer.html:12
+msgid "Click to choose all at once."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\forms\transfer.html:12
+msgid "Choose all"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\forms\transfer.html:16
+msgid "Choose"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\forms\transfer.html:19
+#: .\xadmin\templates\xadmin\widgets\base.html:40
+msgid "Remove"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\forms\transfer.html:23
+msgid "Chosen"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\forms\transfer.html:27
+msgid "Click to remove all chosen at once."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\forms\transfer.html:27
+msgid "Remove all"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\import_export\export_action.html:43
+#: .\xadmin\templates\xadmin\import_export\import.html:59
+msgid "Submit"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\import_export\import.html:26
+msgid ""
+"Below is a preview of data to be imported. If you are satisfied with the "
+"results, click 'Confirm import'"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\import_export\import.html:29
+msgid "Confirm import"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\import_export\import.html:38
+msgid "This importer will import the following fields: "
+msgstr ""
+
+#: .\xadmin\templates\xadmin\import_export\import.html:67
+msgid "Errors"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\import_export\import.html:78
+msgid "Line number"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\import_export\import.html:88
+msgid "Preview"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\import_export\import.html:103
+msgid "New"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\import_export\import.html:105
+msgid "Skipped"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\import_export\import.html:107
+#: .\xadmin\templates\xadmin\includes\submit_line.html:24
+#: .\xadmin\templates\xadmin\views\model_detail.html:28
+#: .\xadmin\views\delete.py:94
+msgid "Delete"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\includes\pagination.html:9
+msgid "Show all"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\includes\submit_line.html:10
+#: .\xadmin\templates\xadmin\includes\submit_line.html:13
+#: .\xadmin\templates\xadmin\views\form.html:30
+#: .\xadmin\templates\xadmin\views\form.html:31
+msgid "Saving.."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\includes\submit_line.html:17
+msgid "Save as new"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\includes\submit_line.html:18
+msgid "Save and add another"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\includes\submit_line.html:19
+msgid "Save and continue editing"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\app_index.html:13
+#, python-format
+msgid "%(name)s"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\batch_change_form.html:11
+msgid "Change multiple objects"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\batch_change_form.html:16
+#, python-format
+msgid "Change one %(objects_name)s"
+msgid_plural "Batch change %(counter)s %(objects_name)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\xadmin\templates\xadmin\views\batch_change_form.html:38
+msgid "Change Multiple"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\dashboard.html:15
+#: .\xadmin\templates\xadmin\views\dashboard.html:22
+#: .\xadmin\templates\xadmin\views\dashboard.html:23
+msgid "Add Widget"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\invalid_setup.html:13
+msgid ""
+"Something's wrong with your database installation. Make sure the appropriate "
+"database tables have been created, and make sure the database is readable by "
+"the appropriate user."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\logged_out.html:16
+msgid "Logout Success"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\logged_out.html:17
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\logged_out.html:19
+msgid "Close Window"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\logged_out.html:20
+msgid "Log in again"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\login.html:39 .\xadmin\views\website.py:39
+msgid "Please Login"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\login.html:52
+msgid "Username"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\login.html:64
+msgid "Password"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\login.html:75
+msgid "log in"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_dashboard.html:26
+#: .\xadmin\templates\xadmin\views\model_detail.html:25
+msgid "Edit"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_delete_confirm.html:11
+#, python-format
+msgid ""
+"Deleting the %(verbose_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_delete_confirm.html:19
+#, python-format
+msgid ""
+"Deleting the %(verbose_name)s '%(escaped_object)s' would require deleting "
+"the following protected related objects:"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_delete_confirm.html:27
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(verbose_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_delete_confirm.html:34
+#: .\xadmin\templates\xadmin\views\model_delete_selected_confirm.html:49
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_delete_confirm.html:35
+#: .\xadmin\templates\xadmin\views\model_delete_selected_confirm.html:50
+msgid "Cancel"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_delete_selected_confirm.html:10
+msgid "Delete multiple objects"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_delete_selected_confirm.html:18
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_delete_selected_confirm.html:26
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_delete_selected_confirm.html:34
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_history.html:26
+msgid "Diff"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_history.html:27
+#: .\xadmin\templates\xadmin\views\recover_list.html:25
+msgid "Date/time"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_history.html:28
+msgid "User"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_history.html:29
+msgid "Comment"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_history.html:54
+msgid "Diff Select Versions"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_history.html:58
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_list.html:29
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_list.html:39
+msgid "Columns"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_list.html:42
+msgid "Restore Selected"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\model_list.html:147
+#: .\xadmin\templates\xadmin\widgets\list.html:33
+msgid "Empty list"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\recover_form.html:20
+msgid "Press the recover button below to recover this version of the object."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\recover_list.html:19
+msgid ""
+"Choose a date from the list below to recover a deleted version of an object."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\recover_list.html:39
+msgid "There are no deleted objects to recover."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\revision_diff.html:12
+#: .\xadmin\templates\xadmin\views\revision_diff.html:17
+#, python-format
+msgid "Diff %(verbose_name)s"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\revision_diff.html:25
+msgid "Field"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\revision_diff.html:26
+msgid "Version A"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\revision_diff.html:27
+msgid "Version B"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\revision_diff.html:39
+msgid "Revert to"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\revision_diff.html:40
+#: .\xadmin\templates\xadmin\views\revision_diff.html:41
+msgid "Revert"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\revision_form.html:16
+#, python-format
+msgid "Revert %(verbose_name)s"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\revision_form.html:21
+msgid "Press the revert button below to revert to this version of the object."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\views\revision_form.html:27
+msgid "Revert this revision"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\widgets\addform.html:14
+msgid "Success"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\widgets\addform.html:14
+msgid "Add success, click <a id='change-link'>edit</a> to edit."
+msgstr ""
+
+#: .\xadmin\templates\xadmin\widgets\addform.html:17
+msgid "Quick Add"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\widgets\base.html:31
+msgid "Widget Options"
+msgstr ""
+
+#: .\xadmin\templates\xadmin\widgets\base.html:42
+msgid "Save changes"
+msgstr ""
+
+#: .\xadmin\views\base.py:323
+msgid "Django Xadmin"
+msgstr ""
+
+#: .\xadmin\views\base.py:324
+msgid "my-company.inc"
+msgstr ""
+
+#: .\xadmin\views\dashboard.py:186
+msgid "Widget ID"
+msgstr ""
+
+#: .\xadmin\views\dashboard.py:187
+msgid "Widget Title"
+msgstr ""
+
+#: .\xadmin\views\dashboard.py:252
+msgid "Html Content Widget, can write any html content in widget."
+msgstr ""
+
+#: .\xadmin\views\dashboard.py:255
+msgid "Html Content"
+msgstr ""
+
+#: .\xadmin\views\dashboard.py:318
+msgid "Target Model"
+msgstr ""
+
+#: .\xadmin\views\dashboard.py:369
+msgid "Quick button Widget, quickly open any page."
+msgstr ""
+
+#: .\xadmin\views\dashboard.py:371
+msgid "Quick Buttons"
+msgstr ""
+
+#: .\xadmin\views\dashboard.py:416
+msgid "Any Objects list Widget."
+msgstr ""
+
+#: .\xadmin\views\dashboard.py:456
+msgid "Add any model object Widget."
+msgstr ""
+
+#: .\xadmin\views\dashboard.py:492
+msgid "Dashboard"
+msgstr ""
+
+#: .\xadmin\views\dashboard.py:634
+#, python-format
+msgid "%s Dashboard"
+msgstr ""
+
+#: .\xadmin\views\delete.py:104
+#, python-format
+msgid "The %(name)s \"%(obj)s\" was deleted successfully."
+msgstr ""
+
+#: .\xadmin\views\detail.py:173 .\xadmin\views\edit.py:217
+#: .\xadmin\views\form.py:74
+msgid "Other Fields"
+msgstr ""
+
+#: .\xadmin\views\detail.py:235
+#, python-format
+msgid "%s Detail"
+msgstr ""
+
+#: .\xadmin\views\edit.py:259
+msgid "Added."
+msgstr ""
+
+#: .\xadmin\views\edit.py:261
+#, fuzzy, python-format
+msgid "Changed %s."
+msgstr "Changed Password"
+
+#: .\xadmin\views\edit.py:261
+msgid "and"
+msgstr ""
+
+#: .\xadmin\views\edit.py:264
+msgid "No fields changed."
+msgstr ""
+
+#: .\xadmin\views\edit.py:431
+#, python-format
+msgid "The %(name)s \"%(obj)s\" was added successfully."
+msgstr ""
+
+#: .\xadmin\views\edit.py:436 .\xadmin\views\edit.py:531
+msgid "You may edit it again below."
+msgstr ""
+
+#: .\xadmin\views\edit.py:440 .\xadmin\views\edit.py:534
+#, python-format
+msgid "You may add another %s below."
+msgstr ""
+
+#: .\xadmin\views\edit.py:482
+#, python-format
+msgid "Change %s"
+msgstr ""
+
+#: .\xadmin\views\edit.py:527
+#, python-format
+msgid "The %(name)s \"%(obj)s\" was changed successfully."
+msgstr ""
+
+#: .\xadmin\views\form.py:168
+#, python-format
+msgid "The %s was changed successfully."
+msgstr ""
+
+#: .\xadmin\views\list.py:192
+msgid "Database error"
+msgstr ""
+
+#: .\xadmin\views\list.py:369
+#, python-format
+msgid "%s List"
+msgstr ""
+
+#: .\xadmin\views\list.py:498
+msgid "Sort ASC"
+msgstr ""
+
+#: .\xadmin\views\list.py:499
+msgid "Sort DESC"
+msgstr ""
+
+#: .\xadmin\views\list.py:503
+msgid "Cancel Sort"
+msgstr ""
+
+#: .\xadmin\views\website.py:17
+msgid "Main Dashboard"
+msgstr ""
+
+#: .\xadmin\widgets.py:53 .\xadmin\widgets.py:80
+msgid "Now"
+msgstr ""
