@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/ArticleSpider/.idea/ArticleSpider.iml" filepath="D:/ArticleSpider/.idea/ArticleSpider.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Yiqi/.idea/Yiqi.iml" filepath="$USER_HOME$/Desktop/Yiqi/.idea/Yiqi.iml" />
+      <module fileurl="file://D:/百度网盘/ngst/.idea/ngst.iml" filepath="D:/百度网盘/ngst/.idea/ngst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../one/.idea/one.iml" filepath="$PROJECT_DIR$/../one/.idea/one.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/paly/.idea/paly.iml" filepath="$USER_HOME$/Desktop/paly/.idea/paly.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/play/.idea/play.iml" filepath="$USER_HOME$/Desktop/play/.idea/play.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/redis-python/.idea/redis-python.iml" filepath="$USER_HOME$/Desktop/redis-python/.idea/redis-python.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/renlian/.idea/renlian.iml" filepath="$USER_HOME$/Desktop/renlian/.idea/renlian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shop/.idea/shop.iml" filepath="$PROJECT_DIR$/../shop/.idea/shop.iml" />
+      <module fileurl="file://D:/百度网盘/下载/29、聚焦Python分布式爬虫必学框架Scrapy 打造搜索引擎/simple/.idea/simple.iml" filepath="D:/百度网盘/下载/29、聚焦Python分布式爬虫必学框架Scrapy 打造搜索引擎/simple/.idea/simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../text/.idea/text.iml" filepath="$PROJECT_DIR$/../text/.idea/text.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wang_django.iml" filepath="$PROJECT_DIR$/.idea/wang_django.iml" />
+    </modules>
+  </component>
+</project>
